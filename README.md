@@ -8,15 +8,15 @@
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
   <a href="#" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/github/license/maxson52/Nail it" />
+    <img alt="License: MIT" src="https://img.shields.io/github/license/maxson52/nail-it" />
   </a>
 </p>
 
 > A simple API for creating beautiful banners.
 
-### 🏠 [Homepage](https://github.com/maxson52/nail-it#readme)
+### 🏠 [Homepage](https://nailit.vercel.app)
 
-## Usage:
+## 💻 Usage
 
 Make a GET request to our API with the following parameters and
 optional queries.
@@ -29,7 +29,7 @@ Where the width and height determine the image's width and height. The text is t
 
 Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/maxson52/nail-it/issues).
 
-## Show your support
+## 🙏 Show your support
 
 Give a ⭐️ if this project helped you!
 
