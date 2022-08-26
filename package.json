@@ -1,0 +1,28 @@
+{
+  "name": "nail-it",
+  "version": "0.0.1",
+  "description": "A simple API for creating beautiful banners.",
+  "author": "Max T",
+  "license": "MIT",
+  "scripts": {
+    "start": "node api/index.js",
+    "dev": "nodemon api/index.js",
+    "dev:vercel": "npx vercel dev --listen 5000"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "node-html-to-image": "^3.2.4",
+    "random-gradient": "^0.0.2"
+  },
+  "homepage": "https://github.com/maxson52/nail-it#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxson52/nail-it"
+  },
+  "bugs": {
+    "url": "https://github.com/maxson52/nail-it/issues"
+  }
+}

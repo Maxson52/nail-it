@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Nail it</title>
+
+    <link
+      rel="icon"
+      href="https://images.emojiterra.com/twitter/512px/1f528.png"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="hero">
+        <h1>Nail it 🔨</h1>
+        <div class="tagline">A simple API for creating beautiful banners</div>
+      </section>
+
+      <section class="hero">
+        <h2>Usage:</h2>
+
+        <p>
+          Make a GET request to our API with the following parameters and
+          optional queries.
+        </p>
+        <pre>/api/v1/{width}/{height}/{text}?random=1&color=black</pre>
+        <p>
+          Where the width and height determine the image's width and height. The
+          text is the text that is centered in the image. The
+          <code>random</code> query determines if the background gradient is
+          randomized, while the <code>color</code>
+          query determines the text color, as a color or hex code.
+        </p>
+      </section>
+
+      <footer>
+        <a href="https://github.com/Maxson52/nail-it">Github</a>
+        <span style="font-weight: bold">·</span>
+        <a href="https://www.buymeacoffee.com/maxson">Support Me</a>
+      </footer>
+    </main>
+  </body>
+</html>
