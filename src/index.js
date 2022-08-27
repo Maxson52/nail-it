@@ -1,4 +1,5 @@
-const app = require("express")();
+const express = require("express");
+const app = express();
 
 const generateImage = require("./_generateImage.js");
 
@@ -21,12 +22,18 @@ app.get("/api/v1/:width/:height/:text", async (req, res) => {
   res.end(image, "binary");
 });
 
-app.get("/api/*", (req, res) => {
-  res.setHeader("Content-Type", "text/html");
-  res.setHeader("Cache-Control", "s-max-age=1, stale-while-revalidate");
+let path = require("path");
+let public = path.join(__dirname, "public");
+
+app.use("/", express.static(public));
+
+app.get("*", (req, res) => {
   res.status(404).send({
     error: `Whoops, it looks like this route doesn't exist!`,
   });
 });
 
-module.exports = app;
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => {
+  console.log(`Listening on port ${PORT}`);
+});

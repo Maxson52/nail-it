@@ -5,9 +5,8 @@
   "author": "Max T",
   "license": "MIT",
   "scripts": {
-    "start": "node api/index.js",
-    "dev": "nodemon api/index.js",
-    "dev:vercel": "npx vercel dev --listen 5000"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
   },
   "devDependencies": {
     "nodemon": "^2.0.19"
