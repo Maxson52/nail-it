@@ -14,7 +14,7 @@
 
 > A simple API for creating beautiful banners.
 
-### 🏠 [Homepage](https://nailit.vercel.app)
+### 🏠 [Homepage](https://nail-it.glitch.me)
 
 ## 💻 Usage
 
